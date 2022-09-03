@@ -1,3 +1,5 @@
+puts '🌱 Seeding started...'
+
 director1 = Director.create(
   name: "Steven Spielberg",
   birthplace: "Cincinnati, OH",
@@ -63,3 +65,5 @@ director3.movies.create(
   category: "Drama",
   discount: false
 )
+
+puts "🌱 Seeding finished!"
